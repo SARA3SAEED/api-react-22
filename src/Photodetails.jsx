@@ -32,7 +32,7 @@ export default function Photodetails() {
 
   return (
     <>
-    <div className="min-h-screen p-8">
+    <div className="min-h-screen mx-56 my-20 p-28 shadow-xl">
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <img src={photo.image} className="rounded-lg w-full sm:w-64"/>
             <div>
